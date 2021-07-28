@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Calculadora IMC</title>
 
 </head>
 <body>
     
-    <section>
+    <section class="center">
         <div>
             <h1>Calculadora IMC</h1>
-            <p>Digite sua altura: <input type="text"></p>
-            <p>Digite seu peso: <input type="text"> </p>
-            <button>CALCULAR</button>
-            <button>LIMPAR</button>
-        </div>
-
-        <div>
-            <p> Seu IMC </p>
-            <div id="resultado"></div>
-        </div>
+            <p class="altura">Digite sua altura: <input type="number" id="altura"></p>
+            <p class="peso">Digite seu peso: <input type="number" id="peso"> </p>
+            <div class="botoes">
+                <button onclick="calcular()">CALCULAR</button>
+                <button>LIMPAR</button>
+            </div>
+            <p id="resultado" class="center"> Seu IMC </p>
+            <p ><div id="imc" class="center"></div></p>
+        </div>        
     </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
