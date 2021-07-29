@@ -17,13 +17,31 @@
             <p class="peso">Digite seu peso: <input type="number" id="peso"> </p>
             <div class="botoes">
                 <button onclick="calcular()">CALCULAR</button>
-                <button>LIMPAR</button>
+                <button onclick="limpar()">LIMPAR</button>
             </div>
             <p id="resultado" class="center"> Seu IMC </p>
             <p ><div id="imc" class="center"></div></p>
-        </div>        
+        </div>
+        
+        <div id="resposta"></div>
     </section>
+    <div class="conteudo">
+        <h2>O que é IMC</h2>
+        <p> <strong> IMC </strong> é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mindial da Saúde para calcular o peso ideal de cada pessoa.</p>
+        <p>A partir do resultado do IMC, é pssívelsaber se a pessoa está dentro do peso ideal e també identificar sobrepeso, obesidade ou desnutrição em crianças, adolescentes, adultos ou idosos.</p>
+        
+        <h2>Como é realizado o cálculo?</h2>
+        <p>Utiliza-se uma conta básica: peso dividido por altura ao quadrado.</br>
+        De acordo com o parâmetro, uma pessoa tem o peso normal quando o resultado desse cálculoestá entre 18,5 e 24,9. </p>
+        <ul>
+            <li><strong>Magreza:</strong> IMC até 18,5 Kg/m² </li>
+            <li><strong>Normal:</strong> IMC entre 18,5 e 24,9 Kg/m²</li>
+            <li><strong>Sobrepeso:</strong> IMC entre 24,9 e 30 Kg/m²</li>
+            <li><strong>Obesidade:</strong> IMC maior que 30Kg/m²</li>
+        </ul>
 
+        <p>Dessa forma, é possível também saber se existe algum risco de desenvolver doenças, pois quanto maior o valor do <strong>IMC</strong>, maior a quantidade de gordura acumulada no corpo e maior o risco da pessoa ter doenças como pressão alta, diabetes e doenças cardíacas.</p>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>

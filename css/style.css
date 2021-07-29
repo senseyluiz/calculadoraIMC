@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+    background: rgb(241, 231, 250);
+}
+
 .center{
     margin: 0 auto;
     
@@ -13,7 +18,8 @@ section{
     border-radius: 8px;
     width: 40%;
     padding: 30px 20px;
-    background: rgb(179, 176, 176);
+    background: rgb(188, 10, 233);
+    color: white
 }
 
 h1{
@@ -53,6 +59,7 @@ button{
 }
 
 #imc{
+    border: 2px solid #951ff5;
     padding-top: 5px;
     text-align: center;
     font-size: 25px;
@@ -61,4 +68,30 @@ button{
     width: 150px;
     height: 40px;
     background: rgb(194, 167, 167);
+    color:rgb(78, 41, 112)
+}
+
+#resposta{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.conteudo{
+    padding: 30px 0;
+    width: 70%;
+    margin: 0 auto;
+    color:rgb(40, 8, 70)
+}
+
+.conteudo h2{
+    margin: 15px 0;
+    color: #9c07a7;
+}
+
+.conteudo p, li{
+    margin: 15px 0;
+}
+
+li{
+    margin-left: 30px;
 }
